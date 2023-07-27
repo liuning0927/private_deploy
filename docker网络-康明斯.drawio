@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T07:31:14.785Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="dkWELmefv5rJ9oFrzsoV" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T09:45:35.338Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="OtIUDLMpDwOKvHs_izqx" version="21.6.5" type="github">
   <diagram name="第 1 页" id="HHds0NfPTQCZL_9P8zOE">
     <mxGraphModel dx="1221" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,38 +79,38 @@
             <mxPoint x="389.5" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fkpc_GHQShyurQD3g6tz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="YiTPZKBgpAGOMU6v1IsZ-4">
+        <mxCell id="Fkpc_GHQShyurQD3g6tz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="YiTPZKBgpAGOMU6v1IsZ-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="260" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fkpc_GHQShyurQD3g6tz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="YiTPZKBgpAGOMU6v1IsZ-2">
+        <mxCell id="Fkpc_GHQShyurQD3g6tz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="YiTPZKBgpAGOMU6v1IsZ-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="260" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fkpc_GHQShyurQD3g6tz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bZMFv0LGt8GlVsN6NAvU-17" target="YiTPZKBgpAGOMU6v1IsZ-3">
+        <mxCell id="Fkpc_GHQShyurQD3g6tz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="bZMFv0LGt8GlVsN6NAvU-17" target="YiTPZKBgpAGOMU6v1IsZ-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bZMFv0LGt8GlVsN6NAvU-17" value="https://*.udesk.cummins.com.cn:443" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="120" width="230" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Fkpc_GHQShyurQD3g6tz-1" value="&lt;span style=&quot;color: rgb(38, 38, 38); font-family: &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Chinese Quote&amp;quot;, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;--&amp;gt;59：minio.conf（监听https://minio.udesk.cummins.com.cn:443 ，跳转http://shared_minio）--&amp;gt;59：upstream.conf（upstream shared_minio{ server 10.82.160.59:9000; }）&lt;/span&gt;&lt;br&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Fkpc_GHQShyurQD3g6tz-1" value="&lt;span style=&quot;color: rgb(38, 38, 38); font-family: &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Chinese Quote&amp;quot;, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;--&amp;gt;59：minio.conf（监听https://minio.udesk.cummins.com.cn:443 ，跳转http://shared_minio）--&amp;gt;59：upstream.conf（upstream shared_minio{ server 10.82.160.59:9000; }）&lt;/span&gt;&lt;br&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="345" width="560" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Fkpc_GHQShyurQD3g6tz-3" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;宿主机做了限制：5050-5100、443端口才能直接通信&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Fkpc_GHQShyurQD3g6tz-3" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;宿主机做了限制：5050-5100、443端口才能直接通信&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="370" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Fkpc_GHQShyurQD3g6tz-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fkpc_GHQShyurQD3g6tz-5" target="Fkpc_GHQShyurQD3g6tz-1">
+        <mxCell id="Fkpc_GHQShyurQD3g6tz-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Fkpc_GHQShyurQD3g6tz-5" target="Fkpc_GHQShyurQD3g6tz-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fkpc_GHQShyurQD3g6tz-5" value="&lt;span style=&quot;border-color: var(--border-color); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: rgb(38, 38, 38); font-family: &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Chinese Quote&amp;quot;, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255); float: none; display: inline !important;&quot;&gt;56：minio.conf（https://shared_nginx59）--&amp;gt;&lt;br&gt;56：upstream.conf（upstream nginx59{ server 10.82.160.59:443; }）&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Fkpc_GHQShyurQD3g6tz-5" value="&lt;span style=&quot;border-color: var(--border-color); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: rgb(38, 38, 38); font-family: &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Chinese Quote&amp;quot;, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255); float: none; display: inline !important;&quot;&gt;56：minio.conf（https://nginx59）--&amp;gt;&lt;br&gt;56：upstream.conf（upstream nginx59{ server 10.82.160.59:443; }）&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="200" width="393" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Fkpc_GHQShyurQD3g6tz-9" value="所有的流量都打到10.82.160.56机器上，nginx做流量转发" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout" vertex="1" parent="1">
+        <mxCell id="Fkpc_GHQShyurQD3g6tz-9" value="所有的流量都打到10.82.160.56机器上，nginx做流量转发" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout" parent="1" vertex="1">
           <mxGeometry x="260" y="-10" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="Fkpc_GHQShyurQD3g6tz-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fkpc_GHQShyurQD3g6tz-15" target="YiTPZKBgpAGOMU6v1IsZ-1">
+        <mxCell id="Fkpc_GHQShyurQD3g6tz-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Fkpc_GHQShyurQD3g6tz-15" target="YiTPZKBgpAGOMU6v1IsZ-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="292" y="260" />
@@ -118,7 +118,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fkpc_GHQShyurQD3g6tz-15" value="nginx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Fkpc_GHQShyurQD3g6tz-15" value="nginx" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="360" width="63" height="50" as="geometry" />
         </mxCell>
       </root>
