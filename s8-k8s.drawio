@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T03:33:58.237Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="UrguLZobmiCCZu2NXnsc" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-04T03:38:16.707Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Dk-bHurThKfzBFVkoc3E" version="21.6.5" type="github">
   <diagram name="第 1 页" id="E5oqeyXUT3EholCvVv0P">
     <mxGraphModel dx="2261" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="5qIUG_8EQPnFbdWqvxKQ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5qIUG_8EQPnFbdWqvxKQ-1" target="5qIUG_8EQPnFbdWqvxKQ-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5qIUG_8EQPnFbdWqvxKQ-1" value="HELM" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="5qIUG_8EQPnFbdWqvxKQ-1" value="HELM" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-270" y="250" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5qIUG_8EQPnFbdWqvxKQ-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="1" source="5qIUG_8EQPnFbdWqvxKQ-3" target="5qIUG_8EQPnFbdWqvxKQ-20">
@@ -68,7 +68,7 @@
           <mxGeometry x="680" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5qIUG_8EQPnFbdWqvxKQ-43" value="helm upgrade udesk-im-s8-k8s-blue . --namespace=default -f values-s8.yaml.tmpl.yaml --set image.tag=commit-ea0566688fb5 --force --install" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-690" y="500" width="770" height="20" as="geometry" />
+          <mxGeometry x="-620" y="510" width="770" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5qIUG_8EQPnFbdWqvxKQ-48" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5qIUG_8EQPnFbdWqvxKQ-44" target="5qIUG_8EQPnFbdWqvxKQ-3">
           <mxGeometry relative="1" as="geometry" />
@@ -78,6 +78,9 @@
         </mxCell>
         <mxCell id="5qIUG_8EQPnFbdWqvxKQ-44" value="chart" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-140" y="250" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5qIUG_8EQPnFbdWqvxKQ-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;" edge="1" parent="1" source="5qIUG_8EQPnFbdWqvxKQ-49" target="5qIUG_8EQPnFbdWqvxKQ-63">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5qIUG_8EQPnFbdWqvxKQ-49" value="helm create  目录" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-30" y="200" width="100" height="20" as="geometry" />
@@ -97,8 +100,22 @@
         <mxCell id="5qIUG_8EQPnFbdWqvxKQ-57" value="实例" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-160" y="420" width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="5qIUG_8EQPnFbdWqvxKQ-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5qIUG_8EQPnFbdWqvxKQ-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="5qIUG_8EQPnFbdWqvxKQ-60" value="Release" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5qIUG_8EQPnFbdWqvxKQ-63" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;helm create&amp;nbsp;&amp;nbsp;&lt;/span&gt;udesk-im-s8-k8s-blue" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="70" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5qIUG_8EQPnFbdWqvxKQ-65" value="实例" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="140" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5qIUG_8EQPnFbdWqvxKQ-69" value="使用Chart部署的一个独立的Kubernetes应用程序实例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="390" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
