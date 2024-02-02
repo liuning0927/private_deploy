@@ -1,9 +1,501 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T03:00:15.461Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.1" etag="aIMBNt_eQXEG__KF2Jy5" type="github">
-  <diagram name="第 1 页" id="2qigmBXlNi6uA3VnO9rl">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2024-02-02T03:47:47.800Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="IFyDyX9j96EaDqMHTtJ8" version="23.1.1" type="github">
+  <diagram id="a45cf8ec-cd66-6f27-3ac3-be6e809c9e4a" name="Page-1">
+    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uoQrUSpAo05WENIZUt8f-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="a8LSkvEluLTXd7M25dek-187" target="uoQrUSpAo05WENIZUt8f-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-187" value="DMZ区" style="swimlane;horizontal=0;rounded=0;fillColor=#FFCCFF;" parent="1" vertex="1">
+          <mxGeometry x="27" y="269" width="1683" height="791" as="geometry">
+            <mxRectangle x="27" y="269" width="30" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-315" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-182" target="a8LSkvEluLTXd7M25dek-248" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-347" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;elbow=vertical;strokeColor=#3333FF;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-182" target="a8LSkvEluLTXd7M25dek-190" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uoQrUSpAo05WENIZUt8f-65" value="调用其他服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="a8LSkvEluLTXd7M25dek-347" vertex="1" connectable="0">
+          <mxGeometry x="-0.0286" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-182" value="全渠道客服应用服务" style="swimlane;startSize=0;fillColor=none;rounded=0;" parent="a8LSkvEluLTXd7M25dek-187" vertex="1">
+          <mxGeometry x="39" y="20" width="291" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-178" value="IP:xx.xx.45.70&lt;br&gt;端口：TCP(3000~3020,&lt;br&gt;3100~3120，&lt;br&gt;30000~30020，&lt;br&gt;7003，7043)&lt;br&gt;SMTP(25)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-182" vertex="1">
+          <mxGeometry x="53" y="9" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-183" value="IP:xx.xx.45.78&lt;br&gt;端口：TCP(3000~3020,&lt;br&gt;3100~3120，&lt;br&gt;30000~30020，&lt;br&gt;7003，7043)&lt;br&gt;SMTP(25)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-182" vertex="1">
+          <mxGeometry x="203" y="9" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-328" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-207" target="a8LSkvEluLTXd7M25dek-304" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-349" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;elbow=vertical;strokeColor=#3333FF;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-207" target="a8LSkvEluLTXd7M25dek-190" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uoQrUSpAo05WENIZUt8f-71" value="调用其他服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="a8LSkvEluLTXd7M25dek-349" vertex="1" connectable="0">
+          <mxGeometry x="-0.1269" y="1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-207" value="KM文本机器人服务" style="swimlane;startSize=0;fillColor=#FFCCFF;rounded=0;" parent="a8LSkvEluLTXd7M25dek-187" vertex="1">
+          <mxGeometry x="720" y="226" width="260" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-208" value="IP:xx.xx.45.71&lt;br&gt;端口：TCP(8081~8088,&lt;br&gt;8911~8913,7687,8718)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-207" vertex="1">
+          <mxGeometry x="48" y="13" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-209" value="IP:xx.xx.45.79&lt;br&gt;端口：TCP(8081~8088,&lt;br&gt;8911~8913,7687,8718)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-207" vertex="1">
+          <mxGeometry x="182" y="13" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-351" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;elbow=vertical;strokeColor=#3333FF;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-285" target="a8LSkvEluLTXd7M25dek-190" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uoQrUSpAo05WENIZUt8f-69" value="调用其他服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="a8LSkvEluLTXd7M25dek-351" vertex="1" connectable="0">
+          <mxGeometry x="0.2555" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-285" value="报表服务" style="swimlane;startSize=0;fillColor=#FFCCFF;rounded=0;" parent="a8LSkvEluLTXd7M25dek-187" vertex="1">
+          <mxGeometry x="720" y="615" width="260" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-286" value="IP:xx.xx.45.72&lt;br&gt;端口：TCP(8901~8911,&lt;br&gt;8808,8810,8811)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-285" vertex="1">
+          <mxGeometry x="50" y="15" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-287" value="IP:xx.xx.45.80&lt;br&gt;端口：TCP(8901~8911,&lt;br&gt;8808,8810,8811)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-285" vertex="1">
+          <mxGeometry x="182" y="15" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-345" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-291" target="a8LSkvEluLTXd7M25dek-295" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-348" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;elbow=vertical;strokeColor=#3333FF;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-291" target="a8LSkvEluLTXd7M25dek-190" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uoQrUSpAo05WENIZUt8f-72" value="调用其他服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="a8LSkvEluLTXd7M25dek-348" vertex="1" connectable="0">
+          <mxGeometry x="0.1091" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-291" value="CCPASS应用服务" style="swimlane;startSize=0;fillColor=#FFCCFF;rounded=0;" parent="a8LSkvEluLTXd7M25dek-187" vertex="1">
+          <mxGeometry x="720" y="30" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-292" value="IP:xx.xx.45.55&lt;br&gt;端口：TCP(8800~8807,&lt;br&gt;8811,8087,8189)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-291" vertex="1">
+          <mxGeometry x="49" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-293" value="IP:xx.xx.45.56&lt;br&gt;端口：TCP(8800~8807,&lt;br&gt;8811,8087,8189)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-291" vertex="1">
+          <mxGeometry x="181" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-352" value="调用其他服务" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.316;entryY=1.007;entryDx=0;entryDy=0;elbow=vertical;entryPerimeter=0;strokeColor=#3333FF;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-248" target="a8LSkvEluLTXd7M25dek-190" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-248" value="即时通讯消息服务" style="swimlane;startSize=0;fillColor=#FFCCFF;rounded=0;" parent="a8LSkvEluLTXd7M25dek-187" vertex="1">
+          <mxGeometry x="39" y="238" width="290" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-249" value="IP:xx.xx.45.67&lt;br&gt;端口：TCP(5880,5882,&lt;br&gt;5888,5222)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-248" vertex="1">
+          <mxGeometry x="55" y="28" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-250" value="IP:xx.xx.45.68&lt;br&gt;端口：TCP(5880,5882,&lt;br&gt;5888,5222)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-248" vertex="1">
+          <mxGeometry x="200" y="28" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-324" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-298" target="a8LSkvEluLTXd7M25dek-295" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-298" value="SIP中继接入代理服务" style="swimlane;startSize=0;fillColor=#FFCCFF;rounded=0;" parent="a8LSkvEluLTXd7M25dek-187" vertex="1">
+          <mxGeometry x="1036" y="30" width="344" height="150" as="geometry">
+            <mxRectangle x="1036" y="30" width="150" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-299" value="IP:xx.xx.45.64&lt;br&gt;端口：UDP(7854,8891,8893&lt;br&gt;16384~32768)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-298" vertex="1">
+          <mxGeometry x="70" y="28" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-300" value="IP:xx.xx.45.65&lt;br&gt;端口：UDP(7854,8891,8893&lt;br&gt;16384~32768)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-298" vertex="1">
+          <mxGeometry x="246" y="28" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-304" value="NLP服务" style="swimlane;startSize=0;fillColor=#FFCCFF;rounded=0;" parent="a8LSkvEluLTXd7M25dek-187" vertex="1">
+          <mxGeometry x="1212" y="614" width="330" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-305" value="IP:xx.xx.45.66&lt;br&gt;端口：TCP(16666,4000,4211,&lt;br&gt;4111,16888,4101,4150,&lt;br&gt;4161,4151,4160)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-304" vertex="1">
+          <mxGeometry x="67" y="15" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-306" value="IP:xx.xx.45.59&lt;br&gt;端口：TCP(16666,4000,4211,&lt;br&gt;4111,16888,4101,4150,&lt;br&gt;4161,4151,4160)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-304" vertex="1">
+          <mxGeometry x="232" y="15" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-317" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-190" target="a8LSkvEluLTXd7M25dek-248" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-318" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-190" target="a8LSkvEluLTXd7M25dek-282" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-319" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-190" target="a8LSkvEluLTXd7M25dek-291" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-320" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-190" target="a8LSkvEluLTXd7M25dek-207" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-321" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-190" target="a8LSkvEluLTXd7M25dek-288" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-322" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-190" target="a8LSkvEluLTXd7M25dek-285" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-323" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-190" target="a8LSkvEluLTXd7M25dek-270" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uoQrUSpAo05WENIZUt8f-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-190" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1183" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uoQrUSpAo05WENIZUt8f-33" value="tower" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="uoQrUSpAo05WENIZUt8f-32" vertex="1" connectable="0">
+          <mxGeometry x="0.5112" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uoQrUSpAo05WENIZUt8f-44" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-190" target="a8LSkvEluLTXd7M25dek-182" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-190" value="Nginx-KA集群" style="swimlane;startSize=0;fillColor=#FFCCFF;rounded=0;" parent="a8LSkvEluLTXd7M25dek-187" vertex="1">
+          <mxGeometry x="389" y="30" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-191" value="IP:xx.xx.45.76&lt;br&gt;端口：TCP(80，443)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-190" vertex="1">
+          <mxGeometry x="50" y="50" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-192" value="IP:xx.xx.45.77&lt;br&gt;端口：TCP(80，443)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-190" vertex="1">
+          <mxGeometry x="170" y="50" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-193" value="&lt;font color=&quot;#ff6666&quot;&gt;VIP:暂未提供&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="a8LSkvEluLTXd7M25dek-190" vertex="1">
+          <mxGeometry x="80" y="20" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-316" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;elbow=vertical;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-203" target="a8LSkvEluLTXd7M25dek-248" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-353" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;elbow=vertical;strokeColor=#3333FF;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-203" target="a8LSkvEluLTXd7M25dek-190" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uoQrUSpAo05WENIZUt8f-66" value="调用其他服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="a8LSkvEluLTXd7M25dek-353" vertex="1" connectable="0">
+          <mxGeometry x="0.1583" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-203" value="即时通讯监控服务" style="swimlane;startSize=0;fillColor=#FFCCFF;rounded=0;" parent="a8LSkvEluLTXd7M25dek-187" vertex="1">
+          <mxGeometry x="39" y="428" width="290" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-204" value="IP:xx.xx.45.69&lt;br&gt;端口：TCP(5880,5882,5888,5222)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-203" vertex="1">
+          <mxGeometry x="110" y="47" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-354" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.308;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;strokeColor=#3333FF;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-282" target="a8LSkvEluLTXd7M25dek-190" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uoQrUSpAo05WENIZUt8f-67" value="调用其他服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="a8LSkvEluLTXd7M25dek-354" vertex="1" connectable="0">
+          <mxGeometry x="0.3521" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-282" value="Insight服务" style="swimlane;startSize=0;fillColor=#FFCCFF;rounded=0;" parent="a8LSkvEluLTXd7M25dek-187" vertex="1">
+          <mxGeometry x="39" y="615" width="290" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-283" value="IP:xx.xx.45.73&lt;br&gt;端口：TCP(12100~12130,&lt;br&gt;8888,8889,22222,22234)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-282" vertex="1">
+          <mxGeometry x="57" y="25" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-284" value="IP:xx.xx.45.81&lt;br&gt;端口：TCP(12100~12130,&lt;br&gt;8888,8889,22222,22234)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-282" vertex="1">
+          <mxGeometry x="202" y="25" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-327" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;elbow=vertical;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-288" target="a8LSkvEluLTXd7M25dek-304" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-350" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;elbow=vertical;strokeColor=#3333FF;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-288" target="a8LSkvEluLTXd7M25dek-190" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uoQrUSpAo05WENIZUt8f-70" value="调用其他服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="a8LSkvEluLTXd7M25dek-350" vertex="1" connectable="0">
+          <mxGeometry x="0.0985" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-288" value="智能质检服务" style="swimlane;startSize=0;fillColor=#FFCCFF;rounded=0;" parent="a8LSkvEluLTXd7M25dek-187" vertex="1">
+          <mxGeometry x="720" y="418" width="260" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-289" value="IP:xx.xx.45.75&lt;br&gt;端口：TCP(8700~8708)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-288" vertex="1">
+          <mxGeometry x="49" y="19" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-290" value="IP:xx.xx.45.83&lt;br&gt;端口：TCP(8700~8708)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-288" vertex="1">
+          <mxGeometry x="181" y="19" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-325" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-301" target="a8LSkvEluLTXd7M25dek-295" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-301" value="SIP用户接入代理服务" style="swimlane;startSize=0;fillColor=#FFCCFF;rounded=0;" parent="a8LSkvEluLTXd7M25dek-187" vertex="1">
+          <mxGeometry x="1420" y="30" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-302" value="IP:xx.xx.45.63&lt;br&gt;端口：TCP(4443,8088)&lt;br&gt;UDP/TCP(5474)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-301" vertex="1">
+          <mxGeometry x="110" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-355" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.424;entryY=1.007;entryDx=0;entryDy=0;elbow=vertical;strokeColor=#3333FF;entryPerimeter=0;exitX=0.42;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-270" target="a8LSkvEluLTXd7M25dek-190" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uoQrUSpAo05WENIZUt8f-68" value="调用其他服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="a8LSkvEluLTXd7M25dek-355" vertex="1" connectable="0">
+          <mxGeometry x="-0.3057" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-270" value="短信，UMPASS(客制化对接)" style="swimlane;startSize=0;fillColor=#FFCCFF;rounded=0;" parent="a8LSkvEluLTXd7M25dek-187" vertex="1">
+          <mxGeometry x="389" y="420" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-271" value="IP:xx.xx.45.74&lt;br&gt;端口：TCP(8081,8082,&lt;br&gt;8819~8821,7043,&lt;br&gt;8601~8610)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-270" vertex="1">
+          <mxGeometry x="47" y="27" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-272" value="IP:xx.xx.45.82&lt;br&gt;端口：TCP(8081,8082,&lt;br&gt;8819~8821,7043,&lt;br&gt;8601~8610)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-270" vertex="1">
+          <mxGeometry x="175" y="27" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-294" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.64;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-270" target="a8LSkvEluLTXd7M25dek-270" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-326" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="a8LSkvEluLTXd7M25dek-187" source="a8LSkvEluLTXd7M25dek-295" target="a8LSkvEluLTXd7M25dek-304" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-295" value="CTI服务" style="swimlane;startSize=0;fillColor=#FFCCFF;rounded=0;" parent="a8LSkvEluLTXd7M25dek-187" vertex="1">
+          <mxGeometry x="1184" y="334" width="386" height="186" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-296" value="IP:xx.xx.45.57&lt;br&gt;端口：TCP(4022,4033,4020,4021,&lt;br&gt;4023,4024,4002,4001,&lt;br&gt;4011,5001,4041,4009,&lt;br&gt;4028)&lt;br&gt;UDP(5474,5475,8891,8893&lt;br&gt;16384~32768)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-295" vertex="1">
+          <mxGeometry x="80" y="12" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-297" value="IP:xx.xx.45.58&lt;br&gt;端口：TCP(4022,4033,4020,4021,&lt;br&gt;4023,4024,4002,4001,&lt;br&gt;4011,5001,4041,4009,&lt;br&gt;4028)&lt;br&gt;UDP(5474,5475,8891,8893&lt;br&gt;16384~32768)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-295" vertex="1">
+          <mxGeometry x="273" y="11" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-189" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="340" y="70" width="270" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-172" value="防火墙" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.firewall;" parent="a8LSkvEluLTXd7M25dek-189" vertex="1">
+          <mxGeometry x="100" y="90" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="a8LSkvEluLTXd7M25dek-189" source="a8LSkvEluLTXd7M25dek-173" target="a8LSkvEluLTXd7M25dek-172" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-181" value="vpn" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="a8LSkvEluLTXd7M25dek-175" vertex="1" connectable="0">
+          <mxGeometry x="-0.4345" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-173" value="工单/即时通讯用户" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.users;" parent="a8LSkvEluLTXd7M25dek-189" vertex="1">
+          <mxGeometry y="-10" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="a8LSkvEluLTXd7M25dek-189" source="a8LSkvEluLTXd7M25dek-176" target="a8LSkvEluLTXd7M25dek-172" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-180" value="vpn" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="a8LSkvEluLTXd7M25dek-177" vertex="1" connectable="0">
+          <mxGeometry x="-0.2645" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-176" value="呼叫中心/即时通讯/工单坐席" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.business_center;" parent="a8LSkvEluLTXd7M25dek-189" vertex="1">
+          <mxGeometry x="220" y="-10" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-198" value="非DMZ区" style="swimlane;horizontal=0;rounded=0;fillColor=#FFFFCC;" parent="1" vertex="1">
+          <mxGeometry x="27" y="1155" width="1683" height="825" as="geometry">
+            <mxRectangle x="27" y="1155" width="30" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-219" value="Elasticsearch服务" style="swimlane;startSize=0;fillColor=#FFCCFF;rounded=0;" parent="a8LSkvEluLTXd7M25dek-198" vertex="1">
+          <mxGeometry x="406" y="22" width="394" height="378" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-220" value="IP:xx.xx.49.109&lt;br&gt;端口：TCP(9200,9300)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-219" vertex="1">
+          <mxGeometry x="54" y="28" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-221" value="IP:xx.xx.49.110&lt;br&gt;端口：TCP(9200,9300)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-219" vertex="1">
+          <mxGeometry x="182" y="28" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-223" value="IP:xx.xx.49.111&lt;br&gt;端口：TCP(9200,9300)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-219" vertex="1">
+          <mxGeometry x="309" y="28" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7nRpD-vWzyKnDG4OSyw1-51" value="依赖Elasticsearch的服务列表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#3333FF;fillColor=none;" parent="a8LSkvEluLTXd7M25dek-219" vertex="1">
+          <mxGeometry x="30" y="143" width="340" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="7nRpD-vWzyKnDG4OSyw1-52" value="    1.全渠道客服应用服务(10.84.45.70,xx.xx.45.78)&#xa;    2.CCPASS应用服务 (xx.xx.45.55,xx.xx.45.56)&#xa;    3.KM文本机器人服务(xx.xx.45.71,xx.xx.45.79)&#xa;    4.智能质检服务(xx.xx.45.75,xx.xx.45.83)&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#3333FF;" parent="7nRpD-vWzyKnDG4OSyw1-51" vertex="1">
+          <mxGeometry y="30" width="340" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-224" value="缓存,消息队列服务器" style="swimlane;startSize=0;fillColor=#FFCCFF;rounded=0;" parent="a8LSkvEluLTXd7M25dek-198" vertex="1">
+          <mxGeometry x="823" y="21" width="427" height="379" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-225" value="IP:xx.xx.49.128&lt;br&gt;端口：TCP(10909,10911&lt;br&gt;9876,5672,15672&lt;br&gt;2181,9092,6377)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-224" vertex="1">
+          <mxGeometry x="51" y="19" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-226" value="IP:xx.xx.49.129&lt;br&gt;端口：TCP(10909,10911&lt;br&gt;9876,5672,15672&lt;br&gt;2181,9092,6377)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-224" vertex="1">
+          <mxGeometry x="188" y="19" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-228" value="IP:xx.xx.49.130&lt;br&gt;端口：TCP(10909,10911&lt;br&gt;9876,5672,15672&lt;br&gt;2181,9092,6377)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-224" vertex="1">
+          <mxGeometry x="325" y="19" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7nRpD-vWzyKnDG4OSyw1-53" value="依赖缓存，消息队列的服务列表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#3333FF;fillColor=none;" parent="a8LSkvEluLTXd7M25dek-224" vertex="1">
+          <mxGeometry x="44.5" y="145" width="340" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="7nRpD-vWzyKnDG4OSyw1-54" value="    1.全渠道客服应用服务(xx.xx.45.70,xx.xx.45.78)&#xa;    2.Insight服务 (xx.xx.45.73,xx.xx.45.81)&#xa;    3.CCPASS应用服务 (xx.xx.45.55,xx.xx.45.56)&#xa;    4.KM文本机器人服务(xx.xx.45.71,xx.xx.45.79)&#xa;    5.智能质检服务(xx.xx.45.75,xx.xx.45.83)&#xa;    6.报表服务(xx.xx.45.72,xx.xx.45.80)&#xa;    7.CTI服务(xx.xx.45.57,xx.xx.45.58)&#xa;    8.NLP服务(xx.xx.45.66,xx.xx.45.59)&#xa;    9.短信，UMPASS(客制化对接)&#xa;     (xx.xx.45.74,xx.xx.45.82)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#3333FF;" parent="7nRpD-vWzyKnDG4OSyw1-53" vertex="1">
+          <mxGeometry y="30" width="340" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-229" value="集群管理服务" style="swimlane;startSize=0;fillColor=#FFCCFF;rounded=0;" parent="a8LSkvEluLTXd7M25dek-198" vertex="1">
+          <mxGeometry x="1275" y="425" width="385" height="385" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-230" value="IP:xx.xx.49.133&lt;br&gt;端口：TCP(2379,2380)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-229" vertex="1">
+          <mxGeometry x="48" y="24" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-231" value="IP:xx.xx.49.134&lt;br&gt;端口：TCP(2379,2380)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-229" vertex="1">
+          <mxGeometry x="175" y="24" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-232" value="IP:xx.xx.49.135&lt;br&gt;端口：TCP(2379,2380)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-229" vertex="1">
+          <mxGeometry x="302" y="24" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7nRpD-vWzyKnDG4OSyw1-63" value="依赖集群管理的服务列表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#3333FF;fillColor=none;" parent="a8LSkvEluLTXd7M25dek-229" vertex="1">
+          <mxGeometry x="46" y="135" width="300" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="7nRpD-vWzyKnDG4OSyw1-64" value="    1.CTI服务(xx.xx.45.57,xx.xx.45.58)&#xa;    2.NLP服务(xx.xx.45.66,xx.xx.45.59)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#3333FF;" parent="7nRpD-vWzyKnDG4OSyw1-63" vertex="1">
+          <mxGeometry y="30" width="300" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-240" value="Mysql服务" style="swimlane;startSize=0;fillColor=#FFCCFF;rounded=0;" parent="a8LSkvEluLTXd7M25dek-198" vertex="1">
+          <mxGeometry x="40" y="21" width="340" height="379" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-241" value="IP:xx.xx.49.115&lt;br&gt;端口：TCP(3306)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-240" vertex="1">
+          <mxGeometry x="50" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-242" value="IP:xx.xx.49.116&lt;br&gt;端口：TCP(3306)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-240" vertex="1">
+          <mxGeometry x="260" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7nRpD-vWzyKnDG4OSyw1-49" value="依赖Mysql的服务列表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#3333FF;fillColor=none;" parent="a8LSkvEluLTXd7M25dek-240" vertex="1">
+          <mxGeometry x="20" y="145" width="300" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="7nRpD-vWzyKnDG4OSyw1-50" value="    1.全渠道客服应用服务(xx.xx.45.70,xx.xx.45.78)&#xa;    2.即时通讯消息服务 (xx.xx.45.67,xx.xx.45.68)&#xa;    3.即时通讯监控服务 (xx.xx.45.69)&#xa;    4.Insight服务 (xx.xx.45.73,xx.xx.45.81)&#xa;    5.CCPASS应用服务 (xx.xx.45.55,xx.xx.45.56)&#xa;    6.KM文本机器人服务(xx.xx.45.71,xx.xx.45.79)&#xa;    7.智能质检服务(xx.xx.45.75,xx.xx.45.83)&#xa;    8.报表服务(xx.xx.45.72,xx.xx.45.80)&#xa;    9.sip用户接入代理服务(xx.xx.45.63)&#xa;    10.CTI服务(xx.xx.45.57,xx.xx.45.58)&#xa;    11.NLP服务(xx.xx.45.66,xx.xx.45.59)&#xa;    12.短信，UMPASS(客制化对接)&#xa;    (xx.xx.45.74,xx.xx.45.82)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#3333FF;" parent="7nRpD-vWzyKnDG4OSyw1-49" vertex="1">
+          <mxGeometry y="30" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-233" value="redis哨兵集群" style="swimlane;startSize=0;fillColor=#FFCCFF;rounded=0;" parent="a8LSkvEluLTXd7M25dek-198" vertex="1">
+          <mxGeometry x="1275" y="21" width="385" height="379" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-234" value="IP:xx.xx.45.60&lt;br&gt;端口：TCP(6379,6380&lt;br&gt;26379)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-233" vertex="1">
+          <mxGeometry x="47" y="31" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-235" value="IP:xx.xx.45.61&lt;br&gt;端口：TCP(6379,6380&lt;br&gt;26379)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-233" vertex="1">
+          <mxGeometry x="175" y="31" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-236" value="IP:xx.xx.45.62&lt;br&gt;端口：TCP(6379,6380&lt;br&gt;26379)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-233" vertex="1">
+          <mxGeometry x="302" y="31" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7nRpD-vWzyKnDG4OSyw1-55" value="依赖Reis哨兵的服务列表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#3333FF;fillColor=none;" parent="a8LSkvEluLTXd7M25dek-233" vertex="1">
+          <mxGeometry x="23.5" y="144" width="340" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="7nRpD-vWzyKnDG4OSyw1-56" value="    1.CTI服务(xx.xx.45.57,xx.xx.45.58)&#xa;    2.CCPASS应用服务 (xx.xx.45.55,xx.xx.45.56)&#xa;&#xa;  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#3333FF;" parent="7nRpD-vWzyKnDG4OSyw1-55" vertex="1">
+          <mxGeometry y="30" width="340" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-266" value="对象存储服务器" style="swimlane;startSize=0;fillColor=#FFCCFF;rounded=0;" parent="a8LSkvEluLTXd7M25dek-198" vertex="1">
+          <mxGeometry x="40" y="425" width="340" height="385" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-267" value="IP:xx.xx.49.120&lt;br&gt;端口：TCP(9000)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-266" vertex="1">
+          <mxGeometry x="50" y="26" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-268" value="IP:xx.xx.49.121&lt;br&gt;端口：TCP(9000)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-266" vertex="1">
+          <mxGeometry x="263" y="26" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7nRpD-vWzyKnDG4OSyw1-57" value="依赖对象存储的服务列表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#3333FF;fillColor=none;" parent="a8LSkvEluLTXd7M25dek-266" vertex="1">
+          <mxGeometry x="21.5" y="137" width="300" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="7nRpD-vWzyKnDG4OSyw1-58" value="    1.全渠道客服应用服务(xx.xx.45.70,xx.xx.45.78)&#xa;    2.Insight服务 (xx.xx.45.73,xx.xx.45.81)&#xa;    3.CCPASS应用服务 (xx.xx.45.55,xx.xx.45.56)&#xa;    4.KM文本机器人服务(xx.xx.45.71,xx.xx.45.79)&#xa;    5.智能质检服务(xx.xx.45.75,xx.xx.45.83)&#xa;    6.报表服务(xx.xx.45.72,xx.xx.45.80)&#xa;    7.CTI服务(xx.xx.45.57,xx.xx.45.58)&#xa;    8.NLP服务(xx.xx.45.66,xx.xx.45.59)&#xa;    9.短信，UMPASS(客制化对接)&#xa;     (xx.xx.45.74,xx.xx.45.82)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#3333FF;" parent="7nRpD-vWzyKnDG4OSyw1-57" vertex="1">
+          <mxGeometry y="30" width="300" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-273" value="数仓，PG，MONGODB" style="swimlane;startSize=0;fillColor=#FFCCFF;rounded=0;" parent="a8LSkvEluLTXd7M25dek-198" vertex="1">
+          <mxGeometry x="443" y="425" width="347" height="385" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-274" value="IP:xx.xx.49.112&lt;br&gt;端口：TCP(5432,8080&lt;br&gt;27107,5431,5433)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-273" vertex="1">
+          <mxGeometry x="60" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-275" value="IP:xx.xx.49.113&lt;br&gt;端口：TCP(5432,8080&lt;br&gt;27107,5431,5433)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-273" vertex="1">
+          <mxGeometry x="260" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7nRpD-vWzyKnDG4OSyw1-59" value="依赖数仓,PG,MOGODB的服务列表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#3333FF;fillColor=none;" parent="a8LSkvEluLTXd7M25dek-273" vertex="1">
+          <mxGeometry x="25" y="137" width="300" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="7nRpD-vWzyKnDG4OSyw1-60" value="    1.全渠道客服应用服务(xx.xx.45.70,xx.xx.45.78)&#xa;    2.Insight服务 (xx.xx.45.73,xx.xx.45.81)&#xa;    3.CCPASS应用服务 (xx.xx.45.55,xx.xx.45.56)&#xa;    4.报表服务(xx.xx.45.72,xx.xx.45.80)&#xa;    5.CTI服务(xx.xx.45.57,xx.xx.45.58)&#xa;   " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#3333FF;" parent="7nRpD-vWzyKnDG4OSyw1-59" vertex="1">
+          <mxGeometry y="30" width="300" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-276" value="ASR服务" style="swimlane;startSize=0;fillColor=#FFCCFF;rounded=0;" parent="a8LSkvEluLTXd7M25dek-198" vertex="1">
+          <mxGeometry x="863" y="425" width="357" height="385" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-277" value="IP:xx.xx.49.136&lt;br&gt;端口：TCP(9326,8660,&lt;br&gt;9231,50077)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-276" vertex="1">
+          <mxGeometry x="49" y="18" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-278" value="IP:xx.xx.49.137&lt;br&gt;端口：TCP(9326,8660,&lt;br&gt;9231,50077)" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="a8LSkvEluLTXd7M25dek-276" vertex="1">
+          <mxGeometry x="260" y="18" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7nRpD-vWzyKnDG4OSyw1-61" value="依赖ASR的服务列表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#3333FF;fillColor=none;" parent="a8LSkvEluLTXd7M25dek-276" vertex="1">
+          <mxGeometry x="23.5" y="136" width="310" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="7nRpD-vWzyKnDG4OSyw1-62" value="    1.全渠道客服应用服务(xx.xx.45.70,xx.xx.45.78)&#xa;    2.CCPASS应用服务 (xx.xx.45.55,xx.xx.45.56)&#xa;    3.KM文本机器人服务(xx.xx.45.71,xx.xx.45.79)&#xa;    4.智能质检服务(xx.xx.45.75,xx.xx.45.83)&#xa;    5.CTI服务(xx.xx.45.57,xx.xx.45.58)&#xa;    6.NLP服务(xx.xx.45.66,xx.xx.45.59)&#xa;   " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#3333FF;" parent="7nRpD-vWzyKnDG4OSyw1-61" vertex="1">
+          <mxGeometry y="30" width="310" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-332" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.26;entryY=0.22;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" parent="1" source="a8LSkvEluLTXd7M25dek-339" target="a8LSkvEluLTXd7M25dek-330" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="103.8369441277082" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-335" value="运营商线路" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="a8LSkvEluLTXd7M25dek-332" vertex="1" connectable="0">
+          <mxGeometry x="-0.2491" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-333" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="1" source="a8LSkvEluLTXd7M25dek-330" target="a8LSkvEluLTXd7M25dek-331" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-336" value="互联网" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="a8LSkvEluLTXd7M25dek-333" vertex="1" connectable="0">
+          <mxGeometry x="0.0945" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-330" value="运营商" style="html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.cloud;fontColor=#ffffff;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1196" y="115" width="74" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-334" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="a8LSkvEluLTXd7M25dek-331" target="a8LSkvEluLTXd7M25dek-298" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uoQrUSpAo05WENIZUt8f-5" value="&lt;font color=&quot;#000000&quot;&gt;UDP:7854,16384~32768&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF6666;" parent="a8LSkvEluLTXd7M25dek-334" vertex="1" connectable="0">
+          <mxGeometry x="-0.1738" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-331" value="防火墙" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.firewall;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="160" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-337" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;" parent="1" source="a8LSkvEluLTXd7M25dek-172" target="a8LSkvEluLTXd7M25dek-190" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uoQrUSpAo05WENIZUt8f-36" value="TCP/80,443" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="a8LSkvEluLTXd7M25dek-337" vertex="1" connectable="0">
+          <mxGeometry x="-0.3902" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-340" value="vpn" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;entryPerimeter=0;" parent="1" source="a8LSkvEluLTXd7M25dek-338" target="a8LSkvEluLTXd7M25dek-342" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-338" value="坐席话机/软电话/网页电话" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.phone_2;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1436" y="60" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-339" value="呼叫中心用户" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.mobile;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1096.25" y="55" width="27.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-344" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;" parent="1" source="a8LSkvEluLTXd7M25dek-342" target="a8LSkvEluLTXd7M25dek-301" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uoQrUSpAo05WENIZUt8f-6" value="UDP/TCP:5474&lt;br&gt;TCP:4443,8088" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="a8LSkvEluLTXd7M25dek-344" vertex="1" connectable="0">
+          <mxGeometry x="-0.1333" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8LSkvEluLTXd7M25dek-342" value="防火墙" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.firewall;" parent="1" vertex="1">
+          <mxGeometry x="1521" y="160" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uoQrUSpAo05WENIZUt8f-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="uoQrUSpAo05WENIZUt8f-23" target="a8LSkvEluLTXd7M25dek-198" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uoQrUSpAo05WENIZUt8f-23" value="" style="html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.bus;gradientColor=none;gradientDirection=north;fontColor=#ffffff;perimeter=backbonePerimeter;backboneSize=20;labelBackgroundColor=#FF6666;" parent="1" vertex="1">
+          <mxGeometry x="18" y="1100" width="1700" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
